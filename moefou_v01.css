@@ -1,0 +1,106 @@
+.moefou{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+	font-family: "Hiragino Sans GB","WenQuanYi Micro Hei",Arial,Tahoma,sans-serif;
+	line-height: 1;
+}
+
+.ukagaka{
+    font-size: 12px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+}
+
+.ukagaka .msg-box{
+	position: absolute;
+    right: 0;
+    bottom: 102%;
+    min-width: 260px;
+    min-height: 60px;
+    margin: 0 20px 0 0;
+    background: transparent url('./images/mf/ukagaka_msg_bg.png') top left repeat-x;
+    border: 1px solid #3D7BF3;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.ukagaka .msg-box-inner{
+	padding: 8px 10px;
+    color: #578BEC;
+    line-height: 16px;
+	border-top: 1px solid rgba(255, 255, 255, 0.8);
+	border-radius: 6px;
+}
+
+.hide{
+	display: none;
+}
+
+.ukagaka .msg-box:after{
+	position: absolute;
+    height: 17px;
+    width: 17px;
+    top: 100%;
+    right: 90px;
+    background: transparent url('./images/mf/ukagaka_msg_arrow.png') top left no-repeat;
+    content: "";
+}
+
+.ukagaka .shell{
+	position: relative;
+    padding-right: 24px;
+}
+
+.ukagaka .shell-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.ukagaka .dock{
+position: absolute;
+    right: 12px;
+    bottom: 86px;
+    width: 24px;
+    color: #0069D6;
+    background-image: url('./images/mf/index.png');
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.ukagaka .dock-inner{
+	padding: 6px;
+}
+
+.ukagaka .dock a{
+	color: #578BEC;
+}
+
+a{
+	color: #0069D6;
+    text-decoration: none;
+	margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.clear{
+    clear: both;
+    display: block;
+}
